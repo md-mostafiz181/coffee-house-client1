@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primaryFont{
+  font-family: 'Rancho', cursive;
+}
+
+.secondaryFont{
+  font-family: 'Raleway', sans-serif;
+
+}
