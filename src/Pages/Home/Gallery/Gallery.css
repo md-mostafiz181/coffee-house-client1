@@ -1,0 +1,24 @@
+#gallery-part{
+    padding: 120px 0;
+}
+
+.gal{
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #331a15a6 transparent;
+    border-radius: 15px;
+    opacity: 0;
+    transition: .4s;
+}
+
+.gal:hover .overlay{
+    background-color: #331a15a6;
+    opacity: 1;
+}
